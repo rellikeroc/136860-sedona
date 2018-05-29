@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Airat Khafizov](https://up.htmlacademy.ru/htmlcss/21/user/136860).
-* Наставник: `Неизвестно`.
+* Наставник: [Лиза Позднякова](https://up.htmlacademy.ru/htmlcss/21/user/5608). 
 
 ---
 
