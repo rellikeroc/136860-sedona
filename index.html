@@ -8,7 +8,7 @@
     <header class="top-menu">
       <nav class="top-menu-navig">
         <a class="top-menu-logo">
-            <img src="img/index-logo.svg" alt="Логотип «City of Sedona»">
+            <img src="img/sedona-logo.png" alt="Логотип «City of Sedona»">
         </a>
         <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
@@ -20,57 +20,43 @@
     </header>
     <main class="container">
       
-      <h1 class="visually-hidden">"Welcome to the gorgeous Sedona"</h1>
-           
+      <div class="poster">
+        <p>Welcome</p>
+        <p>to the gorgeous</p>
+        <p>Sedona</p>
+        <p>"Because the Grand Canyon sucks!"</p>
+      </div>  
+
       <section class="feature">
+        <h1 class="visually-hidden">О нашем городе</h1>
         <p>Седона - небольшой городок в Аризоне заслуживающий большего!</p>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
    
       <section class="feature-main">
-        <h2 class="visually-hidden">Причина №1</h2>
+        <h2 class="visually-hidden">Первая причина</h2>
         
         <h3>Настоящий городок</h3>
         <p>№1</p>
         <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-        <a class="photo-town">
-            <img src="img/town.svg" alt="Фотография города">
-        </a>
-      </section>
-
-      <section class="feature-">
-        <h2 class="visually-hidden">Рекмендации</h2>
-        
-          <ul class="feature-list">
-          <li class="feature-item">
-            <h3>Жилье</h3>
-            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-          </li>
-          <li class="feature-item">
-            <h3>Еда</h3>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-          </li>
-          <li class="feature-item">
-            <h3>Сувениры</h3>
-            <p>Не только китайского, но и местного производства!</p>
-          </li>
-        </ul>
+        <p class="photo-town">
+            <img src="img/town.jpg" alt="Фотография города">
+        </p>
       </section>
 
       <section class="feature-main">
-        <h2 class="visually-hidden">Причина №2</h2>      
+        <h2 class="visually-hidden">Вторая причина</h2>      
         
-        <a class="photo-bridge">
-              <img src="img/bridge.svg" alt="Фото «Мост дьявола»">
-        </a>
+        <p class="photo-bridge">
+          <img src="img/bridge.jpg" alt="Фото «Мост дьявола»">
+        </p>
         <h3>Там есть мост дьявола</h3>
         <p>№2</p>
         <p>Да, по нему можно пройти! Если конечно осмелитесь</p>
       </section>
      
       <section class="feature-secondary">
-        <h2 class="visually-hidden">Причины №3,4,5</h2>  
-
+        <h2 class="visually-hidden">Остальные причины</h2>
         <ul class="feature-list">
           <li class="feature-item">
             <h3>Небольшая площадь</h3>
@@ -89,17 +75,37 @@
           </li>
         </ul>
       </section>  
-
+      
+      <section class="feature-recomend">
+        <h2 class="visually-hidden">Рекомендации</h2>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <h3>Жилье</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li class="feature-item">
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="feature-item">
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </section>
+  
       <section class="appointment">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <span class="button-find">Поиск гостиницы в Седоне</span>
+        <button class="button-find">Поиск гостиницы в Седоне</button>
         <!-- Место под форму -->
       </section>
       <!-- Карта -->
     </main>
     <footer class="footer">
-      <p class="footer-hashtag">#visitsedona</p>
+      <p class="footer-hashtag">
+        <a href="https://visitsedona.com">#visitsedona</a>
+      </p>
       <div class="footer-social">
         <ul>
           <li><a class="button-social" href="#">Twitter</a></li>
@@ -108,7 +114,7 @@
         </ul>
       </div>
       <p class="footer-copyright">
-          <img src="img/htmlacademylogo.svg" alt="Лого HTML Academy">
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="Лого HTML Academy"></a>
       </p>
     </footer>
   </body>
